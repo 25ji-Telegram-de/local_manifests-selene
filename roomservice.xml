@@ -2,7 +2,6 @@
 <manifest>
 
   <remote name="25ji" fetch="https://github.com/25ji-Telegram-de" />
-  <remote name="t25" fetch="https://github.com/TelegramAt25" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
   <remote name="yaoyoro_devices" fetch="https://github.com/yaoyoro-pj-devices" />
   <!-- <remote name="AOS" fetch="https://github.com/ArrowOS" /> -->
@@ -23,7 +22,7 @@
   -->
 
   <!-- kernel tree -->
-  <project path="kernel/xiaomi/selene" name="yuki_kernel_xiaomi_selene" remote="t25" revision="niigo" />
+  <project path="kernel/xiaomi/selene" name="android_kernel_xiaomi_selene" remote="25ji" revision="yuki-saisei" />
 
   <!-- vendor tree -->
   <project path="vendor/xiaomi/selene" name="android_vendor_xiaomi_selene" remote="25ji" revision="yaoyoro-14.1" />
